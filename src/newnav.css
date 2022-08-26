@@ -1,0 +1,39 @@
+.new_nav {
+  height: 40px;
+  background-color: #232f3e;
+  position: relative;
+  flex: 0.4;
+  z-index: 1;
+}
+header nav .drawer {
+  width: 250px;
+  background-color: red;
+}
+.new_nav .nav_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new_nav .nav_data .left_data {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  flex: 0.4;
+}
+
+.new_nav .nav_data .left_data p {
+  padding-bottom: 15px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+}
+/* .hamburgur {
+  height: 12px;
+} */
+/* media query */
+@media (max-width: 808px) {
+  .new_nav .nav_data .left_data {
+    flex: 1;
+  }
+}

@@ -1,0 +1,27 @@
+.AdvertisementThree__header {
+  height: 150px;
+  width: 280px;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: bold;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: aliceblue;
+}
+.AdvertisementThree__link {
+  height: 30px;
+  width: 270px;
+  background-color: #ffd814;
+  border-radius: 5px;
+  text-align: center;
+  margin: 14px 4px;
+  font-size: 16px;
+}
+
+.AdvertisementThree__body {
+  margin-left: 15px;
+}
+.AdvertisementOne__footer {
+  padding: 15px;
+}
